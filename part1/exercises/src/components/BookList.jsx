@@ -10,9 +10,9 @@ export default function BookList() {
   return (
     <div>
       <h3>{pageTitle}</h3>
-      <img src={book1} alt="The Once and Future Witches by Alix E. Harrow" />
-      <img src={book2} alt="Sundial by Catriona Ward" />
-      <img src={book3} alt="Circe by Madeline Miller" />
+      <img src={book1} alt="The Once and Future Witches by Alix E. Harrow" width = {203} height ={306}  />
+      <img src={book2} alt="Sundial by Catriona Ward" width = {203} height ={306}/>
+      <img src={book3} alt="Circe by Madeline Miller" width = {203} height ={306}/>
     </div>
   );
 }

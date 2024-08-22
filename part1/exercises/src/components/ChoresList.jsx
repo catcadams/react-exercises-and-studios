@@ -5,7 +5,7 @@ class ChoresList extends React.Component {
   render() {
     const chores = ["Sweep the floor", "Vacuum the stairs"];
     return (
-      <div>
+      <div className={classes.choresSection}>
         <h3 className={classes.choresHeading}>Today's Chores</h3>
         <ol>
           <li className={classes.choresText}>{chores[0]}</li>

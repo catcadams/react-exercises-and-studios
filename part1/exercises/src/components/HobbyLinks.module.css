@@ -1,0 +1,15 @@
+.hobbyHeading {
+  color: forestgreen;
+  text-decoration: underline;
+}
+
+.hobbyText {
+  text-align: center;
+}
+
+.hobbySection {
+  border: solid;
+  border-color: blueviolet;
+  border-width: 0.25rem;
+  border-style: dotted;
+}
